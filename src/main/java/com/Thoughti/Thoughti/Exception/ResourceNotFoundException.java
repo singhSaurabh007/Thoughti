@@ -4,7 +4,7 @@ public class ResourceNotFoundException extends RuntimeException {
     int orderId;
 
     public ResourceNotFoundException(int orderId) {
-        super(String.format("%s not found",orderId));
+        super(String.format(" %s not found",orderId));
         this.orderId = orderId;
 
     }
